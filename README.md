@@ -80,28 +80,18 @@ Saya **Mirwan Kholid**, pengembang web full-stack dan analis data bersertifikasi
 
 ---
 
-### 🚀 Proyek pilihan
+### 🚀 Featured Systems & Projects
 
-| Proyek | Yang saya bangun | Teknologi |
-| :--- | :--- | :--- |
-| **Bank Sampah Sukamaju Sejahtera** | Layanan penimbangan, tabungan nasabah, simpan pinjam, dan pembayaran dalam satu platform. | Next.js · TypeScript · Prisma · MySQL · Midtrans |
-| **PETADIK — KGB Guru** | Alur verifikasi kenaikan gaji berkala untuk guru di Disdik Kabupaten Bandung Barat. | PHP · MySQL · Tailwind CSS |
-| **SIM KIPAN Indonesia** | Manajemen keanggotaan dengan kontrol akses berbasis peran. | Next.js · TypeScript · Prisma |
-| **Presensi Geofence GPS** | Presensi dengan pemeriksaan radius lokasi dan foto kamera. | React · Express · MySQL · Leaflet |
-
-<details>
-<summary><strong>Lihat proyek lainnya</strong></summary>
-
-<br />
-
-| Proyek | Fokus | Teknologi |
-| :--- | :--- | :--- |
-| **Posymart Coffee Shop** | Operasional kedai kopi dan dashboard analitik. | Laravel · Alpine.js · Chart.js |
-| **WebGIS Kedai Kopi** | Pemetaan dan analisis persebaran kedai kopi. | Leaflet · Overpass API |
-| **SIPUS Perpustakaan** | Sistem informasi manajemen perpustakaan. | React · Vite · Express · MySQL |
-| **Rental Mobil Cloud** | Pengelolaan rental mobil berbasis web. | Google Apps Script · Google Sheets |
-
-</details>
+| **No** | **Project Name** | **Type / Client** | **Tech Stack** | **Repository / Live** |
+| :---: | :--- | :--- | :--- | :--- |
+| **01** | **Bank Sampah Sukamaju Sejahtera** | Undergraduate Thesis & Community Platform | Next.js, TypeScript, Prisma, MySQL, Midtrans API | [Repository](https://github.com/mirwan10522114-jpg/BANK-SAMPAH-SUKAMAJU-SEJAHTERA) |
+| **02** | **PETADIK — KGB Guru Disdik KBB** | Government Administrative Automation | PHP, MySQL, JavaScript, Tailwind CSS | [Live Portal](https://disdikkbb.org/petadik) |
+| **03** | **SIM KIPAN Indonesia** | Youth Anti-Drug Coalition Cadre Portal | Next.js, TypeScript, Prisma, MySQL, RBAC | [Repository](https://github.com/mirwan10522114-jpg/KIPAN_INDONESIA) |
+| **04** | **PosyMart Coffee Shop POS** | Cashier POS & Customer Table QR Orders | Laravel 13, PHP, Alpine.js, Tailwind CSS 4, Chart.js | [Repository](https://github.com/mirwan10522114-jpg/POSYMART_APLIKASI_POS) |
+| **05** | **WebGIS Kedai Kopi Bandung** | Multi-Criteria Strategic Location Analysis | Next.js, TypeScript, Leaflet.js, OpenStreetMap | [Repository](https://github.com/mirwan10522114-jpg/WebGIS_Analisis-Lokasi-Strategis-Cabang-Kedai-Kopi) |
+| **06** | **SIPUS — Perpustakaan Digital Sekolah** | Digital Library & QR Circulation Desk | React, Vite, TypeScript, Node.js, Express, MySQL | [Repository](https://github.com/mirwan10522114-jpg/SIPUS_WEB_PERPUSTAKAAN) |
+| **07** | **Sistem Absensi Karyawan** | Employee Attendance & Geofencing System | React, TypeScript, Vite, Tailwind CSS, Node.js, Express, MySQL | [Repository](https://github.com/mirwan10522114-jpg/SIS-TEM_ABSENSI_KARYAWAN) |
+| **08** | **Aplikasi Rental Mobil** | Car Rental & Mobile Booking Platform | Google Apps Script, Google Sheets, JavaScript, HTML5/CSS3 | [Live Web App](https://script.google.com/macros/s/AKfycbyIvFluy0DLAlZeAJa4AOdrDlnrknuQOV8maKFKhzE4z8ijkVWBNMqs63_3c1DL7oEh_A/exec) |
 
 ---
 
