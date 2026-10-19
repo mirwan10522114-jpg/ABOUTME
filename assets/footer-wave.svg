@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+  <style>
+    .front { animation: flow 12s ease-in-out infinite alternate; }
+    .back { animation: flow 18s ease-in-out infinite alternate-reverse; }
+    @keyframes flow { from { transform: translateX(-70px); } to { transform: translateX(70px); } }
+    @media (prefers-reduced-motion: reduce) { .front, .back { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="waveColor"><stop stop-color="#2563EB"/><stop offset=".5" stop-color="#6366F1"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+  </defs>
+  <path class="back" d="M-200 45 Q100 10 400 42 T1000 40 T1600 42 V90 H-200Z" fill="url(#waveColor)" opacity=".3"/>
+  <path class="front" d="M-200 65 Q100 30 400 62 T1000 60 T1600 62 V90 H-200Z" fill="url(#waveColor)" opacity=".8"/>
+</svg>

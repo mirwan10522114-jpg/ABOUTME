@@ -1,10 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Mirwan Kholid</title>
   <desc id="desc">Full-Stack Developer dan Data Analyst berbasis di Bandung, Indonesia</desc>
+  <style>
+    .wave { animation: wave 12s ease-in-out infinite alternate; }
+    .wave-back { animation: wave 17s ease-in-out infinite alternate-reverse; }
+    .orb { animation: drift 10s ease-in-out infinite alternate; }
+    .signal { animation: pulse 3s ease-in-out infinite; }
+    .cursor { animation: blink 1.2s steps(2, end) infinite; }
+    @keyframes wave { from { transform: translateX(-80px); } to { transform: translateX(80px); } }
+    @keyframes drift { from { transform: translate(0, 0); } to { transform: translate(-30px, 12px); } }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .4; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .wave, .wave-back, .orb, .signal, .cursor { animation: none; } }
+  </style>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1224"/>
-      <stop offset="1" stop-color="#172747"/>
+      <stop offset="0" stop-color="#172C60"/>
+      <stop offset=".55" stop-color="#343C78"/>
+      <stop offset="1" stop-color="#664274"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#5EEAD4"/>
@@ -15,11 +28,12 @@
 
   <g clip-path="url(#cardClip)">
     <rect width="1200" height="340" fill="url(#bg)"/>
-    <circle cx="1100" cy="-36" r="260" fill="#263C63" opacity=".4"/>
+    <circle class="orb" cx="1100" cy="-36" r="260" fill="#9A83F8" opacity=".14"/>
     <circle cx="1128" cy="20" r="177" fill="none" stroke="#5EEAD4" stroke-opacity=".13" stroke-width="1"/>
     <circle cx="1128" cy="20" r="226" fill="none" stroke="#8BA7FF" stroke-opacity=".12" stroke-width="1"/>
-    <path d="M0 314H1200" stroke="#91A4C5" stroke-opacity=".18"/>
-    <rect x="64" y="55" width="7" height="7" rx="1.5" fill="#5EEAD4"/>
+    <path class="wave-back" d="M-200 300 Q100 265 400 302 T1000 300 T1600 300 V360 H-200Z" fill="#8BA7FF" opacity=".16"/>
+    <path class="wave" d="M-200 318 Q100 285 400 316 T1000 314 T1600 316 V360 H-200Z" fill="#0B1224" opacity=".4"/>
+    <rect class="signal" x="64" y="55" width="7" height="7" rx="1.5" fill="#5EEAD4"/>
     <text x="87" y="63" fill="#A8B9D5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">PORTFOLIO / 2026</text>
     <text x="64" y="154" fill="#F6F9FF" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" letter-spacing="-2">Mirwan Kholid</text>
     <rect x="64" y="177" width="245" height="4" rx="2" fill="url(#accent)"/>
@@ -36,6 +50,7 @@
       <text x="40" y="111" fill="#D6E4FA" font-family="Consolas, Menlo, monospace" font-size="16">'web systems',</text>
       <text x="40" y="140" fill="#D6E4FA" font-family="Consolas, Menlo, monospace" font-size="16">'useful data'</text>
       <text x="23" y="169" fill="#5EEAD4" font-family="Consolas, Menlo, monospace" font-size="16">];</text>
+      <rect class="cursor" x="47" y="155" width="8" height="16" rx="1" fill="#5EEAD4"/>
     </g>
   </g>
 </svg>
