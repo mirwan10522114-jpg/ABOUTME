@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Mirwan Kholid</title>
+  <desc id="desc">Full-Stack Developer dan Data Analyst berbasis di Bandung, Indonesia</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1224"/>
+      <stop offset="1" stop-color="#172747"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="1" stop-color="#8BA7FF"/>
+    </linearGradient>
+    <clipPath id="cardClip"><rect width="1200" height="340" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <circle cx="1100" cy="-36" r="260" fill="#263C63" opacity=".4"/>
+    <circle cx="1128" cy="20" r="177" fill="none" stroke="#5EEAD4" stroke-opacity=".13" stroke-width="1"/>
+    <circle cx="1128" cy="20" r="226" fill="none" stroke="#8BA7FF" stroke-opacity=".12" stroke-width="1"/>
+    <path d="M0 314H1200" stroke="#91A4C5" stroke-opacity=".18"/>
+    <rect x="64" y="55" width="7" height="7" rx="1.5" fill="#5EEAD4"/>
+    <text x="87" y="63" fill="#A8B9D5" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3">PORTFOLIO / 2026</text>
+    <text x="64" y="154" fill="#F6F9FF" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" letter-spacing="-2">Mirwan Kholid</text>
+    <rect x="64" y="177" width="245" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="222" fill="#D6E4FA" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="500">Full-Stack Developer  /  Data Analyst</text>
+    <text x="64" y="270" fill="#A8B9D5" font-family="Arial, Helvetica, sans-serif" font-size="17">Bandung, Indonesia  ·  S.Kom.  ·  BNSP Certified</text>
+
+    <g transform="translate(818 84)">
+      <rect width="305" height="188" rx="15" fill="#111E36" stroke="#597197" stroke-opacity=".55"/>
+      <path d="M0 42H305" stroke="#597197" stroke-opacity=".55"/>
+      <circle cx="25" cy="21" r="5" fill="#5EEAD4"/>
+      <circle cx="43" cy="21" r="5" fill="#8BA7FF"/>
+      <circle cx="61" cy="21" r="5" fill="#597197"/>
+      <text x="23" y="82" fill="#5EEAD4" font-family="Consolas, Menlo, monospace" font-size="16">const focus = [</text>
+      <text x="40" y="111" fill="#D6E4FA" font-family="Consolas, Menlo, monospace" font-size="16">'web systems',</text>
+      <text x="40" y="140" fill="#D6E4FA" font-family="Consolas, Menlo, monospace" font-size="16">'useful data'</text>
+      <text x="23" y="169" fill="#5EEAD4" font-family="Consolas, Menlo, monospace" font-size="16">];</text>
+    </g>
+  </g>
+</svg>

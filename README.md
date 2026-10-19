@@ -1,157 +1,82 @@
-# Bank Sampah Sukamaju Sejahtera
+<div align="center">
+  <img src="./assets/profile-hero.svg" alt="Mirwan Kholid — Full-Stack Developer dan Data Analyst" width="100%" />
 
-Sistem operasional bank sampah + koperasi simpan pinjam + penjualan produk terintegrasi.
+  <br />
 
-## Tech Stack
-- **Framework:** Next.js 16 (App Router) + TypeScript
-- **Database:** MySQL (via Prisma ORM)
-- **UI:** Tailwind CSS 4 + shadcn/ui + Recharts
-- **Auth:** JWT-based (mock auth untuk demo)
-- **Payment:** Midtrans Snap (opsional)
+  <p><strong>Membangun produk digital yang membuat pekerjaan lebih sederhana, cepat, dan terukur.</strong></p>
 
-## Cara Menjalankan di VS Code + Laragon
+  <br />
 
-### 1. Persiapan
-- Install [Node.js LTS](https://nodejs.org/)
-- Install [Laragon](https://laragon.org/) (sudah termasuk MySQL)
-- Install [VS Code](https://code.visualstudio.com/)
-- Jalankan Laragon, pastikan MySQL running
+  <a href="mailto:mirwankholid06@gmail.com"><img src="https://img.shields.io/badge/Email-111C35?style=for-the-badge&logo=gmail&logoColor=white" alt="Kirim email" /></a>
+  <a href="https://www.linkedin.com/in/mirwan-kholid"><img src="https://img.shields.io/badge/LinkedIn-111C35?style=for-the-badge&logo=linkedin&logoColor=white" alt="Profil LinkedIn" /></a>
+  <a href="https://wa.me/6281211547844"><img src="https://img.shields.io/badge/WhatsApp-111C35?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Hubungi melalui WhatsApp" /></a>
+</div>
 
-### 2. Import Database
-1. Buka **phpMyAdmin** di browser: `http://localhost/phpmyadmin`
-2. Klik **Import** di menu atas
-3. Pilih file `database/database.sql`
-4. Klik **Go** (Import)
-5. Database `bank_sampah` akan otomatis dibuat dengan semua tabel + sample data
+---
 
-### 3. Setup Project
-```bash
-# Clone atau extract project ke folder
-cd bank-sampah
+### Tentang saya
 
-# Copy environment file
-cp .env.example .env
-# Atau di Windows: copy .env.example .env
+Saya **Mirwan Kholid**, pengembang web full-stack dan analis data bersertifikasi BNSP dari Bandung. Saya merancang aplikasi dari kebutuhan operasional hingga implementasi: alur kerja, basis data, antarmuka, integrasi, dan pelaporan. Pekerjaan saya banyak berfokus pada sistem layanan, transaksi, serta analitik yang bisa dipakai untuk mengambil keputusan.
 
-# Edit .env jika perlu (default sudah sesuai dengan Laragon)
-# DATABASE_URL="mysql://root:@localhost:3306/bank_sampah"
+Saat ini saya mengembangkan **Bank Sampah Sukamaju Sejahtera**, platform operasional bank sampah dan koperasi, serta **SIM KIPAN Indonesia**, sistem manajemen keanggotaan dengan akses berbasis peran.
 
-# Install dependencies
-npm install
+### Proyek pilihan
 
-# Generate Prisma Client
-npx prisma generate
+| Proyek | Yang saya bangun | Teknologi |
+| :--- | :--- | :--- |
+| **Bank Sampah Sukamaju Sejahtera** | Layanan penimbangan, tabungan nasabah, simpan pinjam, dan pembayaran dalam satu platform. | Next.js · TypeScript · Prisma · MySQL · Midtrans |
+| **PETADIK — KGB Guru** | Alur verifikasi kenaikan gaji berkala untuk guru di Disdik Kabupaten Bandung Barat. | PHP · MySQL · Tailwind CSS |
+| **SIM KIPAN Indonesia** | Manajemen keanggotaan dengan kontrol akses berbasis peran. | Next.js · TypeScript · Prisma |
+| **Presensi Geofence GPS** | Presensi dengan pemeriksaan radius lokasi dan foto kamera. | React · Express · MySQL · Leaflet |
 
-# Jalankan development server
-npm run dev
-```
+<details>
+<summary><strong>Lihat proyek lainnya</strong></summary>
 
-### 4. Akses Aplikasi
-Buka browser: `http://localhost:3000`
+<br />
 
-### Login Demo
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@gmail.com | password |
-| Owner | owner@gmail.com | password |
-| Nasabah | mirwan.10522114@mahasiswa.unikom.ac.id | password |
+| Proyek | Fokus | Teknologi |
+| :--- | :--- | :--- |
+| **Posymart Coffee Shop** | Operasional kedai kopi dan dashboard analitik. | Laravel · Alpine.js · Chart.js |
+| **WebGIS Kedai Kopi** | Pemetaan dan analisis persebaran kedai kopi. | Leaflet · Overpass API |
+| **SIPUS Perpustakaan** | Sistem informasi manajemen perpustakaan. | React · Vite · Express · MySQL |
+| **Rental Mobil Cloud** | Pengelolaan rental mobil berbasis web. | Google Apps Script · Google Sheets |
 
-## Fitur Lengkap
+</details>
 
-### Public Pages
-- Landing page dengan stats, galeri kegiatan, edukasi
-- Merchandise catalog (online shop)
-- Edukasi & konten artikel
-- Dokumentasi kegiatan (galeri foto)
-- Lacak pesanan
-- Login & Register
+### Dampak yang terukur
 
-### Admin Panel (11 Modul)
-1. **Dashboard** — Executive dashboard (Bank Sampah, Koperasi, Penjualan)
-2. **Teller Wizard** — Layanan satu pintu (nabung + sedekah + koperasi)
-3. **Operasional** — Nabung & sedekah sampah + QC
-4. **Finansial** — Penarikan saldo & buku kas
-5. **Koperasi** — Simpanan, pinjaman, angsuran, kas
-6. **Inventaris** — Stok, pengolahan, penjualan mitra
-7. **Penjualan Produk** — Toko online & kasir offline (POS)
-8. **Laporan** — Laba rugi (Bank Sampah, Koperasi, Penjualan)
-9. **Edukasi** — CRUD artikel edukasi
-10. **Dokumentasi Kegiatan** — CRUD kegiatan + upload foto
-11. **Master Data** — Nasabah, barang, koperasi, manajemen akun
+| Sistem | Perubahan proses |
+| :--- | :--- |
+| **PETADIK** | Verifikasi KGB dari **14 hari menjadi 1 hari**; berkas fisik diganti alur digital. |
+| **Bank Sampah Sukamaju** | Penimbangan dari **15 menit menjadi 2 menit**; rekonsiliasi kas yang sebelumnya memakan 3 hari menjadi instan. |
+| **Presensi Geofence GPS** | Validasi lokasi dan foto; rekap presensi dapat diekspor ke Excel dalam satu langkah. |
 
-### User Dashboard
-- Profile & saldo
-- Transaksi nabung & sedekah
-- Simpanan koperasi (pokok, wajib, sukarela)
-- Pinjaman + jadwal bayar
-- Notification bell (transaksi + reminder jatuh tempo)
-- Histori poin
+### Teknologi yang saya gunakan
 
-### Fitur Tambahan
-- Cetak struk semua transaksi (9 jenis)
-- Upload gambar produk
-- Upload foto dokumentasi kegiatan
-- Upload gambar artikel edukasi
-- Filter waktu + custom date range di semua tabel
-- Responsive design (mobile, tablet, desktop)
-- Midtrans payment integration (opsional)
+| Area | Perangkat dan teknologi |
+| :--- | :--- |
+| **Frontend** | React, Next.js, TypeScript, JavaScript, Tailwind CSS, Alpine.js |
+| **Backend** | Laravel, PHP, Node.js, Express, Prisma, Python |
+| **Data & visualisasi** | MySQL, MariaDB, Pandas, NumPy, Power BI, Tableau, Chart.js, Leaflet |
+| **Workflow** | Git, GitHub, Google Apps Script, Google Sheets |
 
-## Struktur Folder
-```
-bank-sampah/
-├── src/
-│   ├── app/                    # Next.js App Router
-│   │   ├── api/                # API routes (87 endpoints)
-│   │   ├── globals.css         # Global styles
-│   │   ├── layout.tsx          # Root layout
-│   │   └── page.tsx            # Main page (router)
-│   ├── components/
-│   │   ├── modules/            # Feature components
-│   │   └── ui/                 # shadcn/ui components
-│   ├── lib/                    # Utilities (db, api, auth, format)
-│   └── hooks/                  # Custom hooks
-├── prisma/
-│   └── schema.prisma           # Prisma schema (MySQL)
-├── public/
-│   ├── uploads/                # Uploaded images
-│   │   ├── products/           # Product images
-│   │   ├── kegiatan/           # Activity photos
-│   │   └── edukasi/            # Article images
-│   └── logo-bank-sampah.png    # Logo
-├── database/
-│   └── database.sql            # MySQL database dump
-├── .env.example                # Environment template
-├── package.json
-├── tsconfig.json
-├── next.config.ts
-└── README.md                   # This file
-```
+### Pendidikan & sertifikasi
 
-## Troubleshooting
+- **S.Kom., Sistem Informasi — Universitas Komputer Indonesia** · IPK 3,68/4,00 · 2022–2026.
+- **BNSP SKKNI, Associate Data Analyst** · LSP Informatika · berlaku hingga 2029.
+- **Cisco Networking Academy, CCNAv7** · Introduction to Networks; Switching, Routing, and Wireless Essentials.
+- **IBM SkillsBuild × Hacktiv8** · Data Classification & Summarization.
 
-### Error: "Can't connect to MySQL"
-- Pastikan Laragon running
-- Cek port 3306 tidak digunakan aplikasi lain
-- Cek `.env` → `DATABASE_URL="mysql://root:@localhost:3306/bank_sampah"`
+### Kepemimpinan & organisasi
 
-### Error: "Prisma Client not generated"
-```bash
-npx prisma generate
-```
+Ketua **SAPMA PP UNIKOM** dan Kepala Divisi Diklat **ORADO Kota Bandung** sejak 2026. Sebelumnya, Wakil Ketua **KIPAN Bandung Barat** (2024–2025) dan **HIMA SI UNIKOM** (2023–2024).
 
-### Error: "Module not found"
-```bash
-# Delete node_modules dan install ulang
-rm -rf node_modules
-npm install
-```
+### Mari berkolaborasi
 
-### Reset Database
-```bash
-# Hapus database di phpMyAdmin, lalu import ulang database.sql
-# Atau jalankan:
-npx prisma db push
-```
+Saya terbuka untuk kesempatan sebagai **Full-Stack Developer**, **Data Analyst**, atau kolaborasi proyek di Bandung dan sekitarnya, termasuk kerja hybrid maupun remote.
 
-## License
-Private project — Bank Sampah Sukamaju Sejahtera © 2026
+**[Kirim email](mailto:mirwankholid06@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mirwan-kholid)** · **[WhatsApp](https://wa.me/6281211547844)**
+
+<div align="center">
+  <sub>Merancang dengan empati. Membangun dengan data. Mengukur hasilnya.</sub>
+</div>
