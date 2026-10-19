@@ -10,6 +10,8 @@
   <a href="https://www.linkedin.com/in/mirwan-kholid"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Profil LinkedIn" /></a>
   <a href="https://wa.me/6281211547844"><img src="https://img.shields.io/badge/WhatsApp-168B4B?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Hubungi melalui WhatsApp" /></a>
   <a href="https://github.com/mirwan10522114-jpg"><img src="https://img.shields.io/badge/GitHub-242938?style=for-the-badge&logo=github&logoColor=white" alt="Profil GitHub" /></a>
+  <!-- Ganti https://example.com dengan URL portofolio setelah tersedia. -->
+  <a href="https://example.com" title="Portofolio — tautan sementara"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   </p>
 
   <p>
