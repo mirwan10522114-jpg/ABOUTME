@@ -7,7 +7,7 @@
 
   <p>
   <a href="mailto:mirwankholid06@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Kirim email" /></a>
-  <a href="https://www.linkedin.com/in/mirwan-kholid"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Profil LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/mirwan-kholid/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="Profil LinkedIn" /></a>
   <a href="https://wa.me/6281211547844"><img src="https://img.shields.io/badge/WhatsApp-168B4B?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Hubungi melalui WhatsApp" /></a>
   <a href="https://github.com/mirwan10522114-jpg"><img src="https://img.shields.io/badge/GitHub-242938?style=for-the-badge&logo=github&logoColor=white" alt="Profil GitHub" /></a>
   <a href="https://mirwan-portofolio.vercel.app/" title="Portofolio"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -123,7 +123,7 @@ Ketua **SAPMA PP UNIKOM** dan Kepala Divisi Diklat **ORADO Kota Bandung** sejak 
 
 Saya terbuka untuk kesempatan sebagai **Full-Stack Developer**, **Data Analyst**, atau kolaborasi proyek di Bandung dan sekitarnya, termasuk kerja hybrid maupun remote.
 
-**[Kirim email](mailto:mirwankholid06@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mirwan-kholid)** · **[WhatsApp](https://wa.me/6281211547844)**
+**[Kirim email](mailto:mirwankholid06@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/mirwan-kholid/)** · **[WhatsApp](https://wa.me/6281211547844)**
 
 <div align="center">
   <br />
